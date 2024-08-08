@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "line-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["jialong0209"]
+
+[tool.poetry.dependencies]
+python = ">=3.11.0,<3.12"
+openai = "^1.3"
+flask = "^3.0.1"
+line-bot-sdk = "^3.7.0"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
